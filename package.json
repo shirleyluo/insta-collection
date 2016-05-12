@@ -1,0 +1,20 @@
+{
+  "name": "instagram-collection",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shirleyluo/insta-collection.git"
+  },
+  "scripts": {
+    "start": "PGSSLMODE=require node ./server/server.js"
+    },
+  "author": "Shirley Luo",
+  "dependencies": {
+    "body-parser": "^1.14.0",
+    "express": "^4.13.3",
+    "morgan": "^1.6.1",
+    "pg": "^4.4.3",
+    "sequelize": "^3.14.2"
+  }
+}

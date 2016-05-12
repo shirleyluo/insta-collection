@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+input {
+  padding: 10px;
+}
+
+button {
+  background-color: white;
+  cursor: pointer;
+}
+
+input, button {
+  border: 1px solid gray;
+  border-radius: 5px;
+  height: 3em;
+}
+
+/* SignUp View */
+
+#signup form {
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+}
+
+#signup h2 {
+  font-size: 2em;
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+
+#signup input,  #signup button {
+  display: block;
+  margin: 0 auto 2em;
+  width: 50%;
+}
+
+/* Title View */
+
+#title {
+  margin-bottom: 8%;
+  text-align: center;
+}
+
+#title h1 {
+  font-size: 2.5em;
+}
+
+.nav {
+  height: 10px;
+  list-style: none;
+  margin: 0 auto;
+  padding-left: 0;
+  text-align: center;
+  width: 50%;
+}
+
+.nav li:first-child {
+  margin-right: 5%;
+}
+
+.nav li {
+  display: inline-block;
+  width: 30%;
+}
+
+/* Input View */
+
+#input {
+  clear: both;
+  margin-bottom: 8%;
+}
+
+#input form {
+  margin: 0 auto;
+  text-align: center;
+  width: 60%;
+}
+
+#input input {
+  margin-left: 2%;
+}
+
+.start {
+  margin-right: 5%;
+}
+
+.hash-submit {
+  margin-top: 5%;
+}
+
+.hashtag {
+  margin-right: 5%;
+  width: 30%;
+}
+
+#input button {
+  width: 20%;
+}
+
+/* List & Entry View */
+
+#list {
+  margin: 0 auto 10%;
+  width: 640px;
+}
+
+#list span {
+  font-size: 12px;
+}
+
+#list .entry {
+  margin-bottom: 10%;
+}
+
+.load-more {
+  width: 20%;
+}
+
+/* Saved Collections View */
+
+.saved-search {
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+}
+

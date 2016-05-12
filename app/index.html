@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Instagram Collection</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/icon"> <link rel="icon" href="favicon.ico" type="image/icon">
+  </head>
+  <body>
+
+    <div id="container">
+      <div id="signup"></div>
+      <div id="app"></div>
+    </div>
+
+    <!-- Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.3/backbone-min.js"></script>
+
+    <!-- Models/Collections -->
+    <script src="js/models/InstagramEntry.js"></script>
+    <script src="js/models/UserModel.js"></script>
+    <script src="js/models/SavedSearch.js"></script>
+    <script src="js/collections/Instagram.js"></script>
+    <script src="js/collections/Collection.js"></script>
+
+    <!-- Views -->
+    <script src="js/views/TitleView.js"></script>
+    <script src="js/views/InputView.js"></script>
+    <script src="js/views/ListView.js"></script>
+    <script src="js/views/CollectionView.js"></script>
+    <script src="js/views/SavedSearchView.js"></script>
+    <script src="js/views/EntryView.js"></script>
+    <script src="js/views/AppView.js"></script>
+    <script src="js/views/SignUpView.js"></script>
+
+    <!-- Launch App -->
+    <script src="js/router.js"></script>
+    <script src="js/app.js"></script>
+
+  </body>
+</html>
